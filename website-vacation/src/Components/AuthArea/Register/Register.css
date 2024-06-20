@@ -1,0 +1,134 @@
+.Register {
+	width: 400px;
+    margin: auto;
+	margin-top: 100px;
+
+}
+
+
+
+.form-register {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    background-color: white;
+    color: rgb(84, 59, 108); ;
+    border: 1px solid #333;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    color: rgb(84, 59, 108); ;
+    top:0
+  }
+  
+
+  .message{
+    padding-top: 20px;
+  }
+  
+  .message, 
+  .signin {
+    font-size: 14.5px;
+    color: rgb(161, 97, 221); ;
+  }
+  
+  .signin {
+    text-align: center;
+  }
+  
+
+  
+ .nav-register{
+  text-decoration: none;
+  color: rgb(84, 59, 108); ;
+ }
+
+ .nav-register:hover{
+  color: rgb(36, 4, 51);
+  text-decoration: none;
+ }
+  
+  .flex {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+  }
+  
+  .form-register label {
+    position: relative;
+  }
+  
+  .form-register label .input {
+    background-color:white;
+    
+    width: 100%;
+    padding: 20px 05px 05px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+  }
+  
+  .form-register label .input + span {
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  
+  .form-register label .input:placeholder-shown + span {
+    top: 12.5px;
+    font-size: 0.9em;
+  }
+  
+  .form-register label .input:focus + span,
+  .form-register label .input:valid + span {
+    color:rgb(84, 59, 108); ;
+    top: 0px;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  
+  .input {
+    font-size: medium;
+  }
+  
+  .submit-register {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    transform: .3s ease;
+    background-color: rgb(84, 59, 108); ;
+  }
+  
+  .submit-register:hover {
+    background-color: rgb(84, 59, 108); ;
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(0.9);
+      opacity: 1;
+    }
+  
+    to {
+      transform: scale(1.8);
+      opacity: 0;
+    }
+  }

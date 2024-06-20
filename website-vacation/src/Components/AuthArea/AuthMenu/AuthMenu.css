@@ -1,0 +1,21 @@
+.AuthMenu span{
+    padding-right: 10px;
+    color: rgb(154, 102, 156);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.iconLogin{
+    color: rgb(154, 102, 156);
+    text-decoration: none;
+    display:flex;
+    align-items: center
+
+}
+
+.iconLogin:hover{
+    color: rgb(11, 9, 11);
+    text-decoration: none;
+    
+}

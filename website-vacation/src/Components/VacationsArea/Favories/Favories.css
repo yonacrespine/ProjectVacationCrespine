@@ -1,0 +1,17 @@
+.Favories {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.Favories p{
+    color: rgb(158, 154, 154);
+    font-size: 14.5px;
+    text-align: start;
+}
+
+.spinner-border{
+
+}

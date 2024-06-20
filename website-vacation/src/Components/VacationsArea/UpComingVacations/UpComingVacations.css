@@ -1,0 +1,25 @@
+.UpComingVacations {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+.vacations h5{
+    font-size: 18px;
+    color: black;
+    
+
+}
+.vacations p{
+    color: rgb(158, 154, 154);
+    font-size: 14.5px;
+    text-align: left;
+}
+
+
+.UpComingVacations p{
+    font-size: 14.5px;
+
+}

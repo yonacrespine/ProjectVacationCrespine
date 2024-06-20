@@ -1,0 +1,30 @@
+
+.VacationList{
+
+
+}
+
+.vacationCard {
+	display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.vacationCard p{
+    color: rgb(158, 154, 154);
+    font-size: 14.5px;
+    text-align: start;
+}
+
+.pagination{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+}
+
+
+
+

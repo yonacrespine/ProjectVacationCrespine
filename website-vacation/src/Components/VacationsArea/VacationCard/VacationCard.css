@@ -1,0 +1,17 @@
+.VacationCard {
+}
+
+@media screen and (max-width: 771px) {
+  .VacationCard {
+    /* width: 46%; */
+  }
+  .eraseBootsrapEffect {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
+
+.VacationCard p{
+  font-size: 14.5px;
+}

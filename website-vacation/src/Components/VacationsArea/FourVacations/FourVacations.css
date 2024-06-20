@@ -1,0 +1,25 @@
+.FourVacations {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+
+   
+}
+
+.FourVacations p{
+    color: rgb(107, 102, 102);
+    font-size: 14px;
+}
+
+.iconeLike{
+    display: flex;
+    
+}
+
+.buttonLike{
+    border: none;
+    background-color: white;
+}
+

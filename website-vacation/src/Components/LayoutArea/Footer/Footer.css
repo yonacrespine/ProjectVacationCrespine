@@ -1,0 +1,14 @@
+.Footer {
+
+    display: flex;
+    justify-content: space-around;
+}
+.Footer p{
+    color: rgb(101, 83, 92);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.Footer p:hover{
+    color: rgb(190, 87, 154);
+}

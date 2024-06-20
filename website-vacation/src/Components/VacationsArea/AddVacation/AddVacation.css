@@ -1,0 +1,111 @@
+.AddVacation {
+    width: 400px;
+      margin: auto;
+	    margin-top: 100px;
+
+}
+.form-add-vacation {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 700px;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    background-color: white;
+    color: rgb(84, 59, 108); ;
+    border: 1px solid #333;
+    padding-top: 40px;
+    
+  }
+
+  .form-add-vacation label {
+    position: relative;
+  }
+  
+  .title-vacation {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    color: rgb(84, 59, 108); 
+    top:0
+  }
+  
+
+.form-add-vacation label .input {
+    background-color:white;
+    
+    width: 100%;
+    padding: 25px 05px 05px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+  }
+  
+  .form-add-vacation label .input + span {
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  
+  .form-add-vacation label .input:placeholder-shown + span {
+    top: 12.5px;
+    font-size: 0.9em;
+  }
+  
+  .form-add-vacation label .input:focus + span,
+  .form-add-vacation label .input:valid + span {
+    color:rgb(84, 59, 108); ;
+    top: 0px;
+    font-size: 0.7em;
+    font-weight: 600;
+    
+  }
+  
+  .input {
+    font-size: medium;
+    
+  }
+  
+  .submit-vacation {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    transform: .3s ease;
+    background-color: rgb(84, 59, 108); ;
+  }
+  
+  .submit-vacation:hover {
+    background-color: rgb(84, 59, 108); ;
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(0.9);
+      opacity: 1;
+    }
+  
+    to {
+      transform: scale(1.8);
+      opacity: 0;
+    }
+  }
+
+
+  .error {
+    color: red;
+    margin-bottom: 5px;
+}
+
+

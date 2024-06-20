@@ -1,0 +1,91 @@
+.MainPage {
+	position: relative;
+}
+
+.myMain{
+    padding: 0;
+    margin: 0;
+}
+
+.title-main{
+    position: absolute;
+    top: 150px;
+}
+
+.title-main > h1,p{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    
+    font-family: 'Rubik Doodle Shadow';
+    text-align: center;
+}
+
+
+.search-input {
+  width: 300px; /* Largeur souhaitée */
+  padding: 10px; /* Espacement interne */
+  font-size: 16px; /* Taille de police */
+  border: 1px solid #ccc; /* Bordure */
+  border-radius: 16px; /* Coins arrondis */
+  margin-right: 10px; /* Espace à droite pour le bouton */
+}
+
+.container-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Espace au-dessus du champ de recherche */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-input {
+    position: relative;
+    text-align: center;
+    
+  }
+  
+  .input {
+    width: 450px;
+    padding: 10px 0px 10px 40px;
+    border-radius: 9999px;
+    border: solid 1px #333;
+    transition: all .2s ease-in-out;
+    outline: none;
+    opacity: 0.8;
+  }
+  
+  .container-input svg {
+    position: absolute;
+    top: 50%;
+    left: 540px;
+  
+    
+    transform: translate(0, -50%);
+  }
+  
+  .input:focus {
+    opacity: 1;
+    width: 450px;
+  }
+
+
+
+.buttonSearch{
+  border: none;
+ background: none;
+}

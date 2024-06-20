@@ -1,0 +1,56 @@
+.Header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000; 
+    background-color: #ffffff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.Header h1{
+    color: rgb(214, 7, 118);
+}
+
+.nav, .csv{
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(101, 83, 92);
+    font-size: 20px;
+
+    display: flex;
+    justify-content:space-around;
+    margin-top: 8px;
+   
+}
+
+
+
+
+.nav:hover, .csv:hover, .drop:hover, .dropdown-item:hover{
+    color: rgb(190, 87, 154);
+}
+
+.bg-body-tertiary{
+   
+    background-color: white !important;
+}
+
+.navleft{
+    margin-left: 650px;
+}
+
+.csv, .img-csv{
+  
+    text-decoration:underline;
+
+}
+
+.drop{
+    font-size: 20px;
+   
+    color: rgb(101, 83, 92);
+ 
+}
+
+
+

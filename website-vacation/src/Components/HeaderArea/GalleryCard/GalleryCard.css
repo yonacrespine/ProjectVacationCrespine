@@ -1,0 +1,17 @@
+.GalleryCard {
+	position: relative;
+}
+
+.gallery{
+    padding: 0;
+    margin: 0;
+}
+
+.title-gallery{
+    position: absolute;
+    top: 150px;
+}
+
+.hidden{
+    display: none;
+}
