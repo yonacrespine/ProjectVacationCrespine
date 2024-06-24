@@ -191,7 +191,7 @@ router.get("/vacations/images/:imageName", async(request:Request, response:Respo
 
  }
 
-
+// my api is not revealed which is why you will not see the map and the weather.(the weather has a free api but to look for the address coordinates I used the same route as maps)
     router.get('/maps/:address', async (request:Request, response:Response, next: NextFunction) => {
       
     
@@ -199,7 +199,7 @@ router.get("/vacations/images/:imageName", async(request:Request, response:Respo
             const address = request.params.address
             const apiResponse = await axios.get('https://maps.googleapis.com/maps/api/geocode/json', {
                 params: {
-                    key: 'AIzaSyA6fBuGVltAz8BhYNZTataZwA2VCo2tFnk',
+                    key: 'my_api_key',
                     address: address,
                    
                 }
