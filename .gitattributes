@@ -2,7 +2,7 @@
 *.ts linguist-language=TypeScript
 *.tsx linguist-detectable
 *.ts linguist-detectable
-*.html linguist-vendored
+*.html linguist-detectable=false
 public/* linguist-vendored
 assets/* linguist-vendored
 *.json linguist-vendored
