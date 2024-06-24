@@ -1,7 +1,0 @@
-*.tsx linguist-language=TypeScript
-*.jsx linguist-language=JavaScript
-*.tsx linguist-detectable
-*.ts linguist-detectable
-*.html linguist-vendored
-public/* linguist-vendored
-assets/* linguist-vendored
