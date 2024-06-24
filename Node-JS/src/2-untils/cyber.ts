@@ -3,7 +3,7 @@ import UsersModel from "../4-Models/usersModel"
 import { Request } from "express"
 import * as crypto from "crypto";
 
-// test gitattr
+// test gitattr 2
 const secretKey= "IloveTheFish"
 
  function getNewToken(user:UsersModel):string{
