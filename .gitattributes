@@ -5,3 +5,7 @@
 *.html linguist-vendored
 public/* linguist-vendored
 assets/* linguist-vendored
+*.json linguist-vendored
+*.yml linguist-vendored
+*.lock linguist-vendored
+*.md linguist-vendored
